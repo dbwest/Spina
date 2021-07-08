@@ -6,7 +6,7 @@ group :development, :test do
   gem 'gem-release'
   gem 'pg'
   gem 'quiet_assets'
-  gem 'letter_opener'
+  gem 'letter_opener', '>= 1.3.0'
   gem 'brakeman'
   gem 'spina-template', github: 'denkGroot/Spina-template'
   gem 'better_errors'
