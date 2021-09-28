@@ -5,7 +5,7 @@ gemspec
 group :development, :test do
   gem 'gem-release'
   gem 'pg'
-  gem 'quiet_assets'
+  gem 'quiet_assets', '>= 1.1.0'
   gem 'letter_opener'
   gem 'brakeman'
   gem 'spina-template', github: 'denkGroot/Spina-template'
