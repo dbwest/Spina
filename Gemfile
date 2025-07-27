@@ -12,8 +12,8 @@ group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'minitest-reporters'
-  gem 'guard'
+  gem 'guard', '>= 2.12.2'
   gem 'guard-minitest'
   gem 'codeclimate-test-reporter', require: nil
-  gem 'figaro'
+  gem 'figaro', '>= 1.2.0'
 end
